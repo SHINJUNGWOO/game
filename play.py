@@ -117,6 +117,10 @@ while 1:
             gamemode=0
             score=0
             ball.append(ball_class(ball_size))
+            for y in range(3):
+                for x in range(8):
+
+                    array[y][x].check=1
     else:
         gamemode=0
 

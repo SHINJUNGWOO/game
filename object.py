@@ -5,7 +5,7 @@ class ball_class:
 
     def __init__(self,ball_size):
         self.xspeed=5
-        self.yspeed=5
+        self.yspeed=-5
         self.object=pygame.image.load("graphic/ball1.png")
         self.xaxis=50
         self.yaxis=200
