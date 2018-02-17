@@ -67,9 +67,9 @@ class ball_class:
 
 class board:
 
-    def __init__(self,board_size):
+    def __init__(self,board_size,screensize):
         self.xaxis=512
-        self.yaxis=480
+        self.yaxis=screensize[1]-board_size[1]
         self.speed=20
         self.x_padding=board_size[0]
         self.y_padding = board_size[1]

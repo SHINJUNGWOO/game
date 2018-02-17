@@ -1,6 +1,7 @@
 import pygame,sys
 from object import ball_class,board,block
 from pygame.locals import *
+from time import sleep
 pygame.init()
 pygame.font.init()
 pygame.display.set_caption("GAME")
@@ -15,14 +16,14 @@ font1=pygame.font.Font(None,128)
 
 ball_size = 8
 ball_number=1
-board_size=(128,32)
+board_size=(128,8)
 block_size=(128,32)
-life=10
 gamemode=0
+score=0
 
 ball=[]
 ball.append(ball_class(ball_size))
-board1=board(board_size)
+board1=board(board_size,screen_size)
 array=[]
 
 for y in range(3):
@@ -46,28 +47,28 @@ while 1:
         ball[i].board_check(board1)
     board1.move(board_size,screen_size)
 
-    if wallcode==3:
-        life-=1
-    if life==0:
+
+    if len(ball)==0:
         gamemode=1
+    if wallcode==3:
+        if len(ball) != 0:
+            del ball[0]
 
-
+    temp_score=0
     for y in range(3):
         for x in range(8):
             for i in range(len(ball)):
+                temp_score=array[y][x].check
                 array[y][x].check=ball[i].object_check(array[y][x])
+                if temp_score==1 and array[y][x].check==0:
+                    score+=1
 
 
 
 
-    lifetext="life:"+str(life)
-    text1 = font.render(lifetext, True, (0,0,0))
-    text1Rect = text1.get_rect()
-    text1Rect.top=5
-    text1Rect.left=20
 
 
-    scoretext="score:"+str(len(ball))
+    scoretext="score:"+str(score)
     text2 = font.render(scoretext, True, (0,0,0))
     text2Rect = text2.get_rect()
     text2Rect.top=35
@@ -79,6 +80,11 @@ while 1:
     text3Rect.top=128
     text3Rect.left=256
 
+    restart_text="Press 'a' Key to Restart"
+    text4 = font.render(restart_text, True, (0,0,0))
+    text4Rect = text4.get_rect()
+    text4Rect.top=370
+    text4Rect.left=400
     if gamemode==0:
         for i in range(len(ball)):
             screen.blit(ball[i].object,ball[i].objectrect)
@@ -94,8 +100,8 @@ while 1:
 
                     array[y][x].check=1
             ball.append(ball_class(ball_size))
+            sleep(5)
 
-        screen.blit(text1,text1Rect)
         screen.blit(text2, text2Rect)
         screen.blit(board1.object,board1.objectrect)
     elif gamemode==1:
@@ -103,6 +109,14 @@ while 1:
         text2Rect.left = 470
         screen.blit(text3, text3Rect)
         screen.blit(text2, text2Rect)
+        screen.blit(text4, text4Rect)
+        key_input=pygame.key.get_pressed()
+
+        if key_input[pygame.K_a]:
+
+            gamemode=0
+            score=0
+            ball.append(ball_class(ball_size))
     else:
         gamemode=0
 
