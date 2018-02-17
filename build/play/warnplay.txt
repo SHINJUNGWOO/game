@@ -1,0 +1,60 @@
+missing module named 'win32com.gen_py' - imported by win32com, c:\users\sjo50\appdata\local\programs\python\python36-32\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_win32comgenpy.py
+missing module named 'multiprocessing.forking' - imported by c:\users\sjo50\appdata\local\programs\python\python36-32\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_multiprocessing.py
+missing module named resource - imported by posix, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named posix - imported by os, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named _posixsubprocess - imported by subprocess, multiprocessing.util, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named cStringIO - imported by pygame.compat, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named macresource - imported by MacOS, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named MacOS - imported by pygame.macosx, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named _winreg - imported by platform, pygame, pygame.sysfont, C:\Users\sjo50\PycharmProjects\bounceball\play.py, pkg_resources._vendor.appdirs
+missing module named Py25Queue - imported by pygame.threads, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named Queue - imported by pygame.threads, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named pygame.SRCALPHA - imported by pygame, pygame.ftfont, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named 'pygame.movie' - imported by pygame, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named numpy - imported by pygame._numpysurfarray, pygame._numpysndarray, pygame, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named OpenGL - imported by pygame, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named pygame.sdlmain_osx - imported by pygame, pygame.macosx, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named java - imported by platform, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named vms_lib - imported by platform, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named pkg_resources.extern.six - imported by pkg_resources.extern, pkg_resources, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named 'pkg_resources.extern.six.moves' - imported by pkg_resources, C:\Users\sjo50\PycharmProjects\bounceball\play.py, pkg_resources._vendor.packaging.requirements
+missing module named pkg_resources.extern.appdirs - imported by pkg_resources.extern, pkg_resources, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named pkg_resources.extern.packaging - imported by pkg_resources.extern, pkg_resources, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named multiprocessing.AuthenticationError - imported by multiprocessing, multiprocessing.connection, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named multiprocessing.BufferTooShort - imported by multiprocessing, multiprocessing.connection, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named readline - imported by cmd, code, pdb, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named multiprocessing.get_context - imported by multiprocessing, multiprocessing.pool, multiprocessing.managers, multiprocessing.sharedctypes, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named multiprocessing.TimeoutError - imported by multiprocessing, multiprocessing.pool, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named multiprocessing.get_start_method - imported by multiprocessing, multiprocessing.spawn, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named multiprocessing.set_start_method - imported by multiprocessing, multiprocessing.spawn, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named UserDict - imported by PyInstaller.compat, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named win32ctypes - imported by PyInstaller.compat, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named 'win32ctypes.pywin32' - imported by PyInstaller.compat, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named Crypto - imported by PyInstaller.building.makespec, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named grp - imported by shutil, tarfile, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named thread - imported by PyInstaller.loader.pyimod02_archive, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, PyInstaller.loader.pyimod02_archive, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named pyimod00_crypto_key - imported by PyInstaller.loader.pyimod02_archive, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named pyimod03_importers - imported by PyInstaller.loader.pyimod02_archive, C:\Users\sjo50\PycharmProjects\bounceball\play.py, c:\users\sjo50\appdata\local\programs\python\python36-32\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_pkgres.py
+missing module named PyQt5 - imported by PyInstaller.utils.hooks.qt, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named StringIO - imported by PyInstaller.lib.modulegraph._compat, PyInstaller.lib.modulegraph.zipio, C:\Users\sjo50\PycharmProjects\bounceball\play.py, pkg_resources._vendor.six
+missing module named dis3 - imported by PyInstaller.lib.modulegraph._compat, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named xdis - imported by PyInstaller.lib.modulegraph._compat, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named _pkgutil - imported by PyInstaller.lib.modulegraph.modulegraph, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named 'macholib.compat' - imported by macholib.MachO, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named urllib.pathname2url - imported by urllib, PyInstaller.lib.modulegraph._compat, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named _dummy_threading - imported by dummy_threading, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named org - imported by copy, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, distutils.util, netrc, getpass, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named termios - imported by tty, getpass, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named _scproxy - imported by urllib.request, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named 'java.lang' - imported by platform, xml.sax._exceptions, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named 'org.python' - imported by pickle, xml.sax, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named 'pkg_resources.extern.pyparsing' - imported by pkg_resources._vendor.packaging.requirements, pkg_resources._vendor.packaging.markers
+missing module named __builtin__ - imported by pkg_resources._vendor.pyparsing
+missing module named ordereddict - imported by pkg_resources._vendor.pyparsing
+missing module named 'com.sun' - imported by pkg_resources._vendor.appdirs
+missing module named com - imported by pkg_resources._vendor.appdirs
+missing module named 'pygame._view' - imported by pygame, C:\Users\sjo50\PycharmProjects\bounceball\play.py
+missing module named copy_reg - imported by cStringIO, pygame, C:\Users\sjo50\PycharmProjects\bounceball\play.py
